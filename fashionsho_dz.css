@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Playfair Display;
+}
+body{
+    background-color: white;
+    width: 100%;
+    overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height:3.5em;
+    flex-wrap: wrap;
+}
+header h1 a{
+    padding: 10px;
+    font-family: 'Great Vibes';
+    padding: 10px 10px;
+    margin: 100px 80px;
+    font-size: 35px;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    list-style: none;
+    margin-right: 80px;
+}
+header ul li , a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+section .jeans{
+    display: flex;
+    padding: 40px 50px;
+    gap: 40px;
+    background-color: rgba(38, 136, 241, 0.683);
+    margin: 10px;
+}
+section .jeans input[type=radio]{
+    display: none;
+}
+section .jeans .rightside{
+    display: flex;
+    justify-content: right;
+}
+section .jeans .rightside img {
+    width: 100%;
+     max-width: 600px;
+    height:auto;
+    border-radius: 25px;
+    display: none;
+    margin-left: 30%;
+    padding: 10px;
+}
+section .jeans .leftside h2{
+    font-size: 80px;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+section .jeans .leftside h1,h3{
+    font-size: 40px;
+    margin-left: 30px;
+}
+section .jeans .leftside h3{
+    font-size: 40px;
+}
+.color-label {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 60px;
+  cursor: pointer;
+  border: 2.5px solid rgb(255, 255, 255);
+  margin-left: 30px;
+}
+
+.bluefonce {
+  background-color: #001f3f;
+}
+
+.blueclair {
+  background-color: #a0c4ff;
+}
+
+#bluefonce:checked ~ .rightside .jeanfoncer{
+    display: block;
+}
+#blueclair:checked ~ .rightside .jeanclair{
+    display: block;
+}
+button{
+width: 250px;
+height: 50px;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 5px 10px;
+border: solid white 2px;
+cursor: pointer;
+font-size: 15px;
+margin: 50px;
+margin-top: 50px;
+transition: 0.5s;
+}
+button:hover{
+background-color: rgb(255, 255, 255);
+color: rgb(11, 0, 0);
+border: solid rgb(0, 0, 0) 2px;
+}
+
+
+
+section .Pull{
+    display: flex;
+    padding: 40px 50px;
+    gap: 40px;
+    background-color: rgba(240, 87, 207, 0.838);
+    margin: 10px;
+}
+section .Pull input[type=radio]{
+    display: none;
+}
+section .Pull .rightside{
+    display: flex;
+    justify-content: right;
+}
+section .Pull .rightside img {
+    width: 100%;
+     max-width: 600px;
+    height:auto;
+    border-radius: 25px;
+    display: none;
+    margin-left: 30%;
+    padding: 10px;
+}
+section .Pull .leftside h2{
+    font-size: 80px;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+section .Pull .leftside h1,h3{
+    font-size: 40px;
+    margin-left: 30px;
+}
+section .Pull .leftside h3{
+    font-size: 40px;
+}
+.color-label {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 60px;
+  cursor: pointer;
+  border: 2.5px solid rgb(255, 255, 255);
+  margin-left: 30px;
+}
+
+.polorose {
+  background-color: #eb8dd0;
+}
+
+.poloblue {
+  background-color: #a0c4ff;
+}
+
+#polorose:checked ~ .rightside .pullrose{
+    display: block;
+}
+#poloblue:checked ~ .rightside .pullblue{
+    display: block;
+}
+
+
+
+section .Blazer{
+    display: flex;
+    padding: 40px 50px;
+    gap: 40px;
+    background-color: rgba(87, 240, 151, 0.838);
+    margin: 10px;
+}
+section .Blazer input[type=radio]{
+    display: none;
+}
+section .Blazer .rightside{
+    display: flex;
+    justify-content: right;
+}
+section .Blazer .rightside img {
+    width: 100%;
+     max-width: 600px;
+    height:auto;
+    border-radius: 25px;
+    display: none;
+    margin-left: 30%;
+    padding: 10px;
+}
+section .Blazer .leftside h2{
+    font-size: 80px;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+section .Blazer .leftside h1,h3{
+    font-size: 40px;
+    margin-left: 30px;
+}
+section .Blazer .leftside h3{
+    font-size: 40px;
+}
+.color-label {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 60px;
+  cursor: pointer;
+  border: 2.5px solid rgb(255, 255, 255);
+  margin-left: 30px;
+}
+
+.blazerblue {
+  background-color: #ffff;
+}
+
+.blazerblanc {
+  background-color: #ffff;
+}
+
+#blazerbluee:checked ~ .rightside .blazerblue{
+    display: block;
+}
+#blazerblancc:checked ~ .rightside .blazerblanc{
+    display: block;
+}
+footer{
+    height: 80px;
+}
+footer h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    height: 100%;
+}
+@media (max-width: 1024px) {
+  section .jeans, section .Pull, section .Blazer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section .rightside img {
+    margin-left: 0;
+    width: 80%;
+    height: auto;
+  }
+
+  section .leftside h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  section .leftside h1, section .leftside h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .color-label {
+    margin-left: 10px;
+  }
+
+  button {
+    margin: 30px auto;
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  header h1 {
+    margin: 10px;
+    font-size: 28px;
+  }
+
+  header ul {
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px 0;
+  }
+
+  header ul li a {
+    font-size: 18px;
+  }
+
+  section .rightside img {
+    width: 100%;
+  }
+
+  footer h1 {
+    font-size: 18px;
+    padding: 5px;
+  }
+}
